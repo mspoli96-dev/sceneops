@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.vercel/
+.env*
+!.env.example
+.local/
+coverage/
+*.tsbuildinfo
+*.log
+docs/ARTICLE.md
+test-results/
+public/footage/*-preview.jpg
+/.swc
+
+.vercel

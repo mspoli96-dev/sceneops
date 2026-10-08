@@ -1,0 +1,323 @@
+{
+  "dataset": "harbour-48-v1",
+  "original": true,
+  "synthetic": true,
+  "width": 960,
+  "height": 540,
+  "fps": 12,
+  "duration": 48,
+  "samples": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40,
+    44,
+    48
+  ],
+  "cameras": [
+    {
+      "id": "receiving",
+      "video": "/footage/receiving.mp4",
+      "bytes": 336544,
+      "sha256": "42ed6d06e7aebcc9d9c4e25c40942cc302323cfe7f1ddb5dc2a2029f4ac30bd3",
+      "frames": [
+        {
+          "id": "receiving-00",
+          "at": 0,
+          "renderedAt": 0,
+          "image": "/evidence/receiving-00.jpg",
+          "sha256": "90743b19dfec27f63f2048da542bd0c72222f4fbda2e874f9309755a1b980eec"
+        },
+        {
+          "id": "receiving-04",
+          "at": 4,
+          "renderedAt": 4,
+          "image": "/evidence/receiving-04.jpg",
+          "sha256": "be10bc8c6453caf6509e7a29bf015802b77ca7066ee8322156184ea7252d71dc"
+        },
+        {
+          "id": "receiving-08",
+          "at": 8,
+          "renderedAt": 8,
+          "image": "/evidence/receiving-08.jpg",
+          "sha256": "8be485cbcff50c4d7f4d2a77e53fb02473a40d1ee9eeedca63c7fcbded17916a"
+        },
+        {
+          "id": "receiving-12",
+          "at": 12,
+          "renderedAt": 12,
+          "image": "/evidence/receiving-12.jpg",
+          "sha256": "b0b6ef5f9363f0815caaba33b7ebc42a7d3fa01430a20167c6b1b541567d0402"
+        },
+        {
+          "id": "receiving-16",
+          "at": 16,
+          "renderedAt": 16,
+          "image": "/evidence/receiving-16.jpg",
+          "sha256": "5e23a061912399597478407b1fcbaa7616e27103bdfe50f52d89c3d4eba949ad"
+        },
+        {
+          "id": "receiving-20",
+          "at": 20,
+          "renderedAt": 20,
+          "image": "/evidence/receiving-20.jpg",
+          "sha256": "938832a1b0796c8deea049f79c22809eb619b29e68cf5a514b610747f990cb00"
+        },
+        {
+          "id": "receiving-24",
+          "at": 24,
+          "renderedAt": 24,
+          "image": "/evidence/receiving-24.jpg",
+          "sha256": "01f09ce0e3ce2244245af14f67c662105523c38ad875a68fdb28486ca5f1422d"
+        },
+        {
+          "id": "receiving-28",
+          "at": 28,
+          "renderedAt": 28,
+          "image": "/evidence/receiving-28.jpg",
+          "sha256": "23449c022b63ad7f037e8111494eab2ebd8eb7760b13b976591a9eb4ce5b8c83"
+        },
+        {
+          "id": "receiving-32",
+          "at": 32,
+          "renderedAt": 32,
+          "image": "/evidence/receiving-32.jpg",
+          "sha256": "433f2f1266b978ac586fc9cfd49b4a073f3367e89f84c2874a409068e8b10184"
+        },
+        {
+          "id": "receiving-36",
+          "at": 36,
+          "renderedAt": 36,
+          "image": "/evidence/receiving-36.jpg",
+          "sha256": "ada479882d9c01fb78a38ca53adeca577ff338087b6c9d42b6452be15e847d7f"
+        },
+        {
+          "id": "receiving-40",
+          "at": 40,
+          "renderedAt": 40,
+          "image": "/evidence/receiving-40.jpg",
+          "sha256": "455ac0e6de2571368ef442ec7049cecd3b240a804e7ea65e9ca60be09cd09085"
+        },
+        {
+          "id": "receiving-44",
+          "at": 44,
+          "renderedAt": 44,
+          "image": "/evidence/receiving-44.jpg",
+          "sha256": "09abb0eddec2b95e9d45163d04a0f11b22b844f799d96b4d531b401a17d5c722"
+        },
+        {
+          "id": "receiving-48",
+          "at": 48,
+          "renderedAt": 47.916666666666664,
+          "image": "/evidence/receiving-48.jpg",
+          "sha256": "08ac3961092a671fcffe206d976d528ef0e68c36618ce7628f1ced1c4b3846e7"
+        }
+      ]
+    },
+    {
+      "id": "packing",
+      "video": "/footage/packing.mp4",
+      "bytes": 325615,
+      "sha256": "3ddbe57714551cd760b8f829594656fb778cd6983e3192bf94b28d86460b2ee3",
+      "frames": [
+        {
+          "id": "packing-00",
+          "at": 0,
+          "renderedAt": 0,
+          "image": "/evidence/packing-00.jpg",
+          "sha256": "0605e084a05e591b7204e6f178130e7967a33e65fba9279f9dcb45d9da7d06e4"
+        },
+        {
+          "id": "packing-04",
+          "at": 4,
+          "renderedAt": 4,
+          "image": "/evidence/packing-04.jpg",
+          "sha256": "617f603e7de8ce5cbf3e3d832b32a887f91367b0872f187ae00aac397c912fcb"
+        },
+        {
+          "id": "packing-08",
+          "at": 8,
+          "renderedAt": 8,
+          "image": "/evidence/packing-08.jpg",
+          "sha256": "22bdf2601d776fdf7f41f8e9f6c0ed96fb18028a185ca0a19bfb546359240539"
+        },
+        {
+          "id": "packing-12",
+          "at": 12,
+          "renderedAt": 12,
+          "image": "/evidence/packing-12.jpg",
+          "sha256": "6117ea70123e05258fc51c19b141c749fbe5ad7bbe3641188c198447a1295de3"
+        },
+        {
+          "id": "packing-16",
+          "at": 16,
+          "renderedAt": 16,
+          "image": "/evidence/packing-16.jpg",
+          "sha256": "a1018b56451634e13298f9b1520d41170ac7bf617f2b2aa1e7549d5dd6352282"
+        },
+        {
+          "id": "packing-20",
+          "at": 20,
+          "renderedAt": 20,
+          "image": "/evidence/packing-20.jpg",
+          "sha256": "ce35d27e780b8134c40b13bb52bbab0b035ca95e371446859b32cc348e6f2398"
+        },
+        {
+          "id": "packing-24",
+          "at": 24,
+          "renderedAt": 24,
+          "image": "/evidence/packing-24.jpg",
+          "sha256": "e3fc92c76017f93753e0f2d6a42af385665a89adc6f7e902c2a1d3f62a85747a"
+        },
+        {
+          "id": "packing-28",
+          "at": 28,
+          "renderedAt": 28,
+          "image": "/evidence/packing-28.jpg",
+          "sha256": "898ef540f5342345ea06570fa6a4ee70ef4ebae5c053f39bf2174b2d903b63f8"
+        },
+        {
+          "id": "packing-32",
+          "at": 32,
+          "renderedAt": 32,
+          "image": "/evidence/packing-32.jpg",
+          "sha256": "a69d0fc4a4beec2df0973a50bab0276b7e28cc13b668f56303d3df3e31588542"
+        },
+        {
+          "id": "packing-36",
+          "at": 36,
+          "renderedAt": 36,
+          "image": "/evidence/packing-36.jpg",
+          "sha256": "0d1a8607a7ffd3e5c74bdbd98d0dd5ba937cdbd4fa19d297c1f91e09fdd39a82"
+        },
+        {
+          "id": "packing-40",
+          "at": 40,
+          "renderedAt": 40,
+          "image": "/evidence/packing-40.jpg",
+          "sha256": "b796a29a08b07ec341f23b03baa5e2b52e169b7be8f2b7f2e6b3124144dd41ed"
+        },
+        {
+          "id": "packing-44",
+          "at": 44,
+          "renderedAt": 44,
+          "image": "/evidence/packing-44.jpg",
+          "sha256": "1ffdc636489fd4053eb6a63c579f9b44e99e40031adef778a0d8ba95a9d94931"
+        },
+        {
+          "id": "packing-48",
+          "at": 48,
+          "renderedAt": 47.916666666666664,
+          "image": "/evidence/packing-48.jpg",
+          "sha256": "65d048c9726a23a47786726233284a36322584d1d535bf324b618ab70955b38c"
+        }
+      ]
+    },
+    {
+      "id": "dispatch",
+      "video": "/footage/dispatch.mp4",
+      "bytes": 257116,
+      "sha256": "d42e1df7b4ab213ae5612b4bde88bdc3858ed6e33c64d6bc5196c969d5041fe6",
+      "frames": [
+        {
+          "id": "dispatch-00",
+          "at": 0,
+          "renderedAt": 0,
+          "image": "/evidence/dispatch-00.jpg",
+          "sha256": "e6eba1cc86040afde7f7c921875096ec5a93b7859aea62cc7d43f964d765d0bc"
+        },
+        {
+          "id": "dispatch-04",
+          "at": 4,
+          "renderedAt": 4,
+          "image": "/evidence/dispatch-04.jpg",
+          "sha256": "55f6ce989972d30fb5a1c5ca6c95b70ef2c14bd396119419f2d5708980031ada"
+        },
+        {
+          "id": "dispatch-08",
+          "at": 8,
+          "renderedAt": 8,
+          "image": "/evidence/dispatch-08.jpg",
+          "sha256": "a6aa61e0df8786eaca86d5f3de0008922a3e8481758a53118768b28bd4af169a"
+        },
+        {
+          "id": "dispatch-12",
+          "at": 12,
+          "renderedAt": 12,
+          "image": "/evidence/dispatch-12.jpg",
+          "sha256": "51cbe0be51dc15dd1eacc3f50d0dd02ef03a561a486b291708575312751b2b85"
+        },
+        {
+          "id": "dispatch-16",
+          "at": 16,
+          "renderedAt": 16,
+          "image": "/evidence/dispatch-16.jpg",
+          "sha256": "e2e9239bffbd53caa672ba8e4288abb46c47e97043da7e0bd5dd2b1ab6aa0fea"
+        },
+        {
+          "id": "dispatch-20",
+          "at": 20,
+          "renderedAt": 20,
+          "image": "/evidence/dispatch-20.jpg",
+          "sha256": "838c79afff65990955a029a932897c781068b3feba86b850bffab89d0522b87f"
+        },
+        {
+          "id": "dispatch-24",
+          "at": 24,
+          "renderedAt": 24,
+          "image": "/evidence/dispatch-24.jpg",
+          "sha256": "f84fe49be76edbe9e6f2bda6ccf4a1c09745aa0c6ee09806f931e05b5461108f"
+        },
+        {
+          "id": "dispatch-28",
+          "at": 28,
+          "renderedAt": 28,
+          "image": "/evidence/dispatch-28.jpg",
+          "sha256": "085c082af984cf42ec88ab3c55624ca7c39f217324c236e081ec6da543b405dc"
+        },
+        {
+          "id": "dispatch-32",
+          "at": 32,
+          "renderedAt": 32,
+          "image": "/evidence/dispatch-32.jpg",
+          "sha256": "6e533be06fa75065062b72aae820077f4c278397b4fd4df5e99e558f662fd6a1"
+        },
+        {
+          "id": "dispatch-36",
+          "at": 36,
+          "renderedAt": 36,
+          "image": "/evidence/dispatch-36.jpg",
+          "sha256": "7ceb41713efe12e6f6d63a42f75a70b4ef936033fa9aa8c791d55db2a842d9b6"
+        },
+        {
+          "id": "dispatch-40",
+          "at": 40,
+          "renderedAt": 40,
+          "image": "/evidence/dispatch-40.jpg",
+          "sha256": "c18344bdea6cdcf2d66f132c14b98681913665ba9ad08a4e93a777343ed4b55e"
+        },
+        {
+          "id": "dispatch-44",
+          "at": 44,
+          "renderedAt": 44,
+          "image": "/evidence/dispatch-44.jpg",
+          "sha256": "f5827c78cb739376268e03951e7778744566ff77bc6a0cf20e93043155601d04"
+        },
+        {
+          "id": "dispatch-48",
+          "at": 48,
+          "renderedAt": 47.916666666666664,
+          "image": "/evidence/dispatch-48.jpg",
+          "sha256": "d3b5074b36320ae50342553147fea9a6e6e6ac8f6684779bb27bbfa3084a63d2"
+        }
+      ]
+    }
+  ]
+}

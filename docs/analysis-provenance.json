@@ -1,0 +1,59 @@
+{
+  "datasetId": "harbour-48-v1",
+  "model": "gpt-6.1-sol",
+  "generatedAt": "2026-10-08T02:44:18.309Z",
+  "method": "One model request per camera contact sheet; no scene state supplied",
+  "samplingSeconds": 4,
+  "inputs": [
+    {
+      "cameraId": "receiving",
+      "inputSha256": "8174f8cba8f2689c665aeb9ff1b6e0083517ad67fc498c5aea78007d79725912",
+      "usage": {
+        "input_tokens": 3331,
+        "input_tokens_details": {
+          "cache_write_tokens": 3328,
+          "cached_tokens": 0
+        },
+        "output_tokens": 762,
+        "output_tokens_details": {
+          "reasoning_tokens": 112
+        },
+        "total_tokens": 4093
+      }
+    },
+    {
+      "cameraId": "packing",
+      "inputSha256": "886db5269c70fdf6ba72c2ee96404dc84afb07cca8becef995f6dfbac053a54e",
+      "usage": {
+        "input_tokens": 3317,
+        "input_tokens_details": {
+          "cache_write_tokens": 3314,
+          "cached_tokens": 0
+        },
+        "output_tokens": 703,
+        "output_tokens_details": {
+          "reasoning_tokens": 179
+        },
+        "total_tokens": 4020
+      }
+    },
+    {
+      "cameraId": "dispatch",
+      "inputSha256": "fb5fabaaa6f45f280aa7c80778edbb80f64943ab99ee4c0e8d617112c78a9039",
+      "usage": {
+        "input_tokens": 3317,
+        "input_tokens_details": {
+          "cache_write_tokens": 3314,
+          "cached_tokens": 0
+        },
+        "output_tokens": 688,
+        "output_tokens_details": {
+          "reasoning_tokens": 105
+        },
+        "total_tokens": 4005
+      }
+    }
+  ],
+  "reviewedForPublication": true,
+  "reviewScope": "All fourteen model observations compared with the three decoded contact sheets; supporting frame IDs and sampled intervals validated. This is not an independent accuracy evaluation."
+}

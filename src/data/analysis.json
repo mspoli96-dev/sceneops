@@ -1,0 +1,214 @@
+{
+  "datasetId": "harbour-48-v1",
+  "source": "recorded_model_analysis",
+  "model": "gpt-6.1-sol",
+  "generatedAt": "2026-10-08T02:44:18.309Z",
+  "sampleIntervalSeconds": 4,
+  "observations": [
+    {
+      "id": "dispatch-initial-clear",
+      "cameraId": "dispatch",
+      "from": 0,
+      "to": 12,
+      "kind": "clear",
+      "title": "Marked zone appears clear in early samples",
+      "description": "The dashed floor zone appears clear in these sampled views. A carton-loaded wheeled cart is visible outside its near edge.",
+      "evidenceFrameIds": [
+        "dispatch-00",
+        "dispatch-04",
+        "dispatch-08",
+        "dispatch-12"
+      ]
+    },
+    {
+      "id": "packing-initial-zone-clear",
+      "cameraId": "packing",
+      "from": 0,
+      "to": 8,
+      "kind": "clear",
+      "title": "Dashed floor zone initially clear",
+      "description": "The dashed floor zone appears clear in these sampled views. A carton cluster is visible to its left.",
+      "evidenceFrameIds": [
+        "packing-00",
+        "packing-04",
+        "packing-08"
+      ]
+    },
+    {
+      "id": "receiving-initial-clear",
+      "cameraId": "receiving",
+      "from": 0,
+      "to": 4,
+      "kind": "clear",
+      "title": "Central dashed zone appears clear",
+      "description": "The central dashed floor zone appears clear in both sampled views. A carton-loaded wheeled cart is visible to its left.",
+      "evidenceFrameIds": [
+        "receiving-00",
+        "receiving-04"
+      ]
+    },
+    {
+      "id": "receiving-cart-to-foreground",
+      "cameraId": "receiving",
+      "from": 4,
+      "to": 16,
+      "kind": "movement",
+      "title": "Loaded cart changes position across the zone",
+      "description": "Between sampled views, the carton-loaded cart changes position from the left side to within the dashed zone, then toward its right side. By the 16-second sample, it is in the foreground outside the zone.",
+      "evidenceFrameIds": [
+        "receiving-04",
+        "receiving-08",
+        "receiving-12",
+        "receiving-16"
+      ]
+    },
+    {
+      "id": "packing-zone-accumulation",
+      "cameraId": "packing",
+      "from": 8,
+      "to": 32,
+      "kind": "accumulation",
+      "title": "Cartons accumulate inside the dashed zone",
+      "description": "Cartons are visible inside the zone by the 12-second sample. The central grouping grows across subsequent views while the left-side grouping shrinks; by 28 and 32 seconds, a compact carton cluster occupies the zone.",
+      "evidenceFrameIds": [
+        "packing-08",
+        "packing-12",
+        "packing-16",
+        "packing-20",
+        "packing-24",
+        "packing-28",
+        "packing-32"
+      ]
+    },
+    {
+      "id": "dispatch-cart-inward",
+      "cameraId": "dispatch",
+      "from": 12,
+      "to": 20,
+      "kind": "movement",
+      "title": "Loaded cart moves into the marked zone",
+      "description": "Between sampled views, the carton-loaded cart changes position from outside the near edge to inside the dashed zone, visible by the 20-second sample.",
+      "evidenceFrameIds": [
+        "dispatch-12",
+        "dispatch-16",
+        "dispatch-20"
+      ]
+    },
+    {
+      "id": "receiving-middle-clear",
+      "cameraId": "receiving",
+      "from": 16,
+      "to": 32,
+      "kind": "clear",
+      "title": "Zone appears clear while cart is in foreground",
+      "description": "The dashed zone appears clear in these sampled views. The loaded cart remains at the foreground edge, while the cartons on the right-side pallet remain visible.",
+      "evidenceFrameIds": [
+        "receiving-16",
+        "receiving-20",
+        "receiving-24",
+        "receiving-28",
+        "receiving-32"
+      ]
+    },
+    {
+      "id": "dispatch-zone-occupied",
+      "cameraId": "dispatch",
+      "from": 20,
+      "to": 36,
+      "kind": "occupancy",
+      "title": "Loaded cart remains visible within the zone",
+      "description": "A wheeled cart carrying stacked cartons is visible within the dashed floor zone throughout these sampled views.",
+      "evidenceFrameIds": [
+        "dispatch-20",
+        "dispatch-24",
+        "dispatch-28",
+        "dispatch-32",
+        "dispatch-36"
+      ]
+    },
+    {
+      "id": "packing-cartons-toward-foreground",
+      "cameraId": "packing",
+      "from": 32,
+      "to": 48,
+      "kind": "movement",
+      "title": "Carton grouping shifts toward the foreground",
+      "description": "Between sampled views, cartons appear progressively farther toward the foreground beside the conveyor, with fewer remaining centrally. By 44 seconds, the grouping is outside the dashed zone; the last sample shows it farther left along the foreground edge.",
+      "evidenceFrameIds": [
+        "packing-32",
+        "packing-36",
+        "packing-40",
+        "packing-44",
+        "packing-48"
+      ]
+    },
+    {
+      "id": "receiving-cart-to-left",
+      "cameraId": "receiving",
+      "from": 32,
+      "to": 44,
+      "kind": "movement",
+      "title": "Loaded cart changes position toward the left",
+      "description": "Between sampled views, the loaded cart changes position from the foreground to the right portion of the dashed zone, then toward its upper-left portion. By the 44-second sample, it is outside the zone on the left.",
+      "evidenceFrameIds": [
+        "receiving-32",
+        "receiving-36",
+        "receiving-40",
+        "receiving-44"
+      ]
+    },
+    {
+      "id": "dispatch-cart-outward",
+      "cameraId": "dispatch",
+      "from": 36,
+      "to": 44,
+      "kind": "movement",
+      "title": "Loaded cart moves toward the foreground",
+      "description": "Between sampled views, the cart shifts from inside the dashed zone toward its near edge, then appears outside the zone by the 44-second sample.",
+      "evidenceFrameIds": [
+        "dispatch-36",
+        "dispatch-40",
+        "dispatch-44"
+      ]
+    },
+    {
+      "id": "dispatch-final-clear",
+      "cameraId": "dispatch",
+      "from": 44,
+      "to": 48,
+      "kind": "clear",
+      "title": "Marked zone appears clear in final samples",
+      "description": "The dashed zone appears clear in both final sampled views, with the loaded cart outside its near edge. The frame labelled 48 is the last decoded frame immediately before the endpoint.",
+      "evidenceFrameIds": [
+        "dispatch-44",
+        "dispatch-48"
+      ]
+    },
+    {
+      "id": "packing-final-zone-clear",
+      "cameraId": "packing",
+      "from": 44,
+      "to": 48,
+      "kind": "clear",
+      "title": "Dashed zone clear in final samples",
+      "description": "The dashed floor zone appears clear in both final sampled views. Cartons remain visible outside it near the foreground end of the conveyor.",
+      "evidenceFrameIds": [
+        "packing-44",
+        "packing-48"
+      ]
+    },
+    {
+      "id": "receiving-final-clear",
+      "cameraId": "receiving",
+      "from": 44,
+      "to": 48,
+      "kind": "clear",
+      "title": "Central zone appears clear in final samples",
+      "description": "The dashed zone appears clear in both final sampled views, with the loaded cart on the left. The frame labelled 48 is the last decoded view immediately before the 48-second endpoint.",
+      "evidenceFrameIds": [
+        "receiving-44",
+        "receiving-48"
+      ]
+    }
+  ]
+}

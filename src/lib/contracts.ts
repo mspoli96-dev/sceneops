@@ -1,0 +1,9 @@
+export type CameraId = "receiving" | "packing" | "dispatch";
+export type EventKind = "movement" | "accumulation" | "occupancy" | "clear" | "uncertain";
+export type Camera = { id: CameraId; name: string; location: string; video: string; poster: string };
+export type EvidenceFrame = { id: string; cameraId: CameraId; at: number; image: string };
+export type Observation = { id: string; cameraId: CameraId; from: number; to: number; kind: EventKind; title: string; description: string; evidenceFrameIds: string[] };
+export type AnalysisRecord = { datasetId: string; source: "recorded_model_analysis" | "pending"; model: string; generatedAt: string | null; sampleIntervalSeconds: number; observations: Observation[] };
+export type Answer = { answer: string; eventIds: string[]; limitation: string; source: "live_model"; model: string };
+export type LiveConfig = { liveEnabled: boolean; model: string; unavailableReason: string | null };
+export type QueryRequest = { question: string; cameraId: CameraId | "all"; consent: true };
