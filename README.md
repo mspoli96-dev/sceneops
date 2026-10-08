@@ -2,9 +2,9 @@
 
 A video evidence workbench for warehouse operations, built by [Webytex](https://webytex.com/). Review three synchronized views, inspect the images behind an observation, and export your decisions.
 
-[Repository](https://github.com/mspoli96-dev/sceneops) · [Discuss a project](https://business.webytex.com/#quick-contact)
+[Live demo](https://webytex-sceneops.vercel.app) · [Repository](https://github.com/mspoli96-dev/sceneops) · [Discuss a project](https://business.webytex.com/#quick-contact)
 
-**Current status:** the original footage and recorded model analysis are prepared and reviewed. All 42 tests across five files, type checking, and the production build passed. Local browser checks covered synchronized playback, evidence navigation, review export, filtering, and mobile layout. The repository is created and linked to Vercel; the first production deployment and real live-question request remain unverified.
+**Live demo:** the source is public, [GitHub CI passed](https://github.com/mspoli96-dev/sceneops/actions/runs/37720394051), and the matching Vercel deployment is verified. All 42 tests, type checking, and the build passed. Three real questions verified Packing evidence, Dispatch-only references, and an insufficient-evidence answer. Citation navigation and public request protections were also checked. See [validation](docs/VALIDATION.md) for the scope and limits.
 
 ## What you can explore
 

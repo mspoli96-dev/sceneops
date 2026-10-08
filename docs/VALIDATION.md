@@ -1,6 +1,6 @@
 # Validation
 
-Checkpoint: recorded evidence is generated and reviewed; local automated checks, production build, and the browser review flow passed. The live question API and hosted publication remain pending.
+Verified application release: `ac01123a4e4b27b7dbce8f9fdc58ba2a1fd6568c`. Recorded evidence review, 42 tests, type checking, build, public source, CI, production deployment, three real hosted questions, citation navigation, and targeted public endpoint checks passed. The scope and untested scenarios are recorded below.
 
 ## Media and sampling
 
@@ -22,7 +22,7 @@ Each observation identifies a camera, sampled range, and evidence frames. A samp
 
 The implemented question path supplies the selected camera images and recorded observations to `gpt-6.1-sol` with low reasoning. A live answer must cite existing observation IDs within that camera scope. The server rejects unsupported IDs and substitutes an insufficient-evidence response when no valid event reference is returned.
 
-Those checks verify reference membership and response shape. They do not independently establish that every sentence follows from an image. A person must inspect the linked evidence. No real live-question request has been verified at this checkpoint.
+Those checks verify reference membership and response shape. They do not independently establish that every sentence follows from an image. A person must inspect the linked evidence. Three actual hosted question cases are recorded below.
 
 ## Verification record
 
@@ -37,17 +37,44 @@ Those checks verify reference membership and response shape. They do not indepen
 | Three-video playback and navigation | Local play/pause and synchronization passed; selecting the accumulation event sought all views to 8 seconds; frame 24 plus Watch sought all views to 24 seconds |
 | Configured zone overlays and frame inspection | Local inspection passed; selecting Packing filtered to its four observations; overlays are not AI bounding boxes |
 | Accept/dismiss and JSON export | Accept/export verified locally: exported JSON retained one accepted and thirteen unreviewed observations, dataset identity, and provenance |
-| Live query API and evidence-linked answers | Provider mocks and validators tested; actual API request pending |
-| Shared admission, origin, and browser protection | Application tests passed; hosted enforcement pending |
+| Live query API and evidence-linked answers | Three real questions returned HTTP 200: Packing accumulation, Dispatch-scoped clearance, and insufficient evidence for an unsupported cat question |
+| Shared admission, origin, and browser protection | Application tests passed; successful browser requests exercised real Redis/BotID, and targeted public probes rejected unverified/invalid/rate-limited requests before AI admission |
 | Responsive layout and console | Mobile check passed with content width equal to the measured 375-pixel viewport, no overflow; no console errors or warnings captured |
-| Public source, CI, deployment, and hosted flow | Repository created and linked to Vercel; first source publication, CI, deployment, and hosted flow pending |
+| Public source, CI, and deployment | Source `ac01123a4e4b27b7dbce8f9fdc58ba2a1fd6568c` is public; GitHub CI passed and the matching Vercel deployment is ready |
+| Hosted scope and missing evidence | Dispatch answer cited only valid Dispatch IDs; unsupported cat question returned no event references and no invented colour |
 
 The runtime dependency audit reported zero vulnerabilities. The development-only audit retains two moderate advisories involving the Fengari dependency chain and `sprintf-js`; no fix was available at this checkpoint. Fengari executes static authored Lua in tests and is not deployed in the runtime path. This distinction is not a claim that development dependencies have no risk.
 
-The local playback check observed 0.00022 seconds of drift between the synchronized views. This is one browser observation, not a cross-device synchronization guarantee. Poster paths were corrected to use each clip's zero-second frame so the initial preview matches the timeline. Hosted playback, live answers, and external enforcement still need their own checks.
+The local playback check observed 0.00022 seconds of drift between the synchronized views. This is one browser observation, not a cross-device synchronization guarantee. Poster paths were corrected to use each clip's zero-second frame so the initial preview matches the timeline. Hosted citation navigation and targeted endpoint checks are recorded below; broader device coverage and failure-path guarantees are not inferred.
+
+## Hosted questions
+
+At release `ac01123`, the browser submitted “When do cartons accumulate in the packing buffer?” with all camera zones selected. The real API response described the sampled 8–32-second Packing interval, first visible cartons by the 12-second sample, and a compact grouping in the 28- and 32-second samples. It cited the existing Packing accumulation observation and explicitly stated the sampling limitation.
+
+Selecting the citation selected that observation and moved all three video clocks to 8 seconds.
+
+With only Dispatch selected, “When does the loading zone become clear again?” returned that the area appears clear by the 44-second sample, citing the 44–48-second final range and the preceding 36–44-second movement range. Both references were valid Dispatch IDs, and the answer stated that the exact moment between samples was uncertain. Selecting the clearance citation selected Dispatch and moved all three video clocks to 44 seconds.
+
+With all cameras selected, “What colour is the cat in this footage?” returned the fixed insufficient-evidence response with no event references. It did not invent a cat or its colour.
+
+All three `POST /api/query` requests returned HTTP 200 through the public browser flow, exercising actual OpenAI inference, Redis admission, and BotID. The interface identified the source as a live `gpt-6.1-sol` response. No browser console errors or warnings were captured. These cases do not establish continuous video processing, exact event boundaries, or general detection accuracy.
+
+## Public endpoint checks
+
+On the tested deployment, `GET /api/config` returned HTTP 200 with live mode enabled and issued a signed visitor cookie. Using a valid signed visitor context, the targeted probes produced:
+
+- A valid query payload without BotID verification: HTTP 403.
+- Two invalid payloads: HTTP 400 for each.
+- The fourth attempt within the request-limit window: HTTP 429 from the WAF.
+
+None of those four POST probes was admitted for AI processing. This verifies the exercised browser-verification, payload, and request-limit paths. Exhaustion of the full monthly reservation budget, global daily allowance, visitor daily allowance, or concurrency limit was not tested against the hosted services. Passing the normal Redis admission path and mocked limit tests does not establish every production threshold.
 
 ## What remains unproven
 
 No native camera connection, RTSP stream, continuous inference, automatic alert, identification system, exact event-time detection, real warehouse outcome, or general accuracy benchmark is implemented or claimed. API credentials are server-only. Visitor questions are not intentionally stored or logged by the application, but provider-standard data policies still apply to live requests.
 
-The article remains an ignored local draft. Repository/demo publication and native draft preparation must be recorded separately from article or social publication.
+## Public release
+
+The initial application revision is `ac01123a4e4b27b7dbce8f9fdc58ba2a1fd6568c` in the [public repository](https://github.com/mspoli96-dev/sceneops). Its [CI run](https://github.com/mspoli96-dev/sceneops/actions/runs/37720394051) succeeded, and the matching production deployment is ready at [webytex-sceneops.vercel.app](https://webytex-sceneops.vercel.app).
+
+The article remains an ignored local draft. Public code and deployment do not mean that an article or social post has been published.
